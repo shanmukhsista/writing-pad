@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F43F43782AB72C3D0046D186 /* WritingPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F43772AB72C3D0046D186 /* WritingPadApp.swift */; };
+		F43F437A2AB72C3D0046D186 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F43792AB72C3D0046D186 /* ContentView.swift */; };
+		F43F437C2AB72C3F0046D186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43F437B2AB72C3F0046D186 /* Assets.xcassets */; };
+		F43F437F2AB72C3F0046D186 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43F437E2AB72C3F0046D186 /* Preview Assets.xcassets */; };
+		F43F438A2AB72C3F0046D186 /* WritingPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F43892AB72C3F0046D186 /* WritingPadTests.swift */; };
+		F43F43942AB72C3F0046D186 /* WritingPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F43932AB72C3F0046D186 /* WritingPadUITests.swift */; };
+		F43F43962AB72C3F0046D186 /* WritingPadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F43952AB72C3F0046D186 /* WritingPadUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F43F43862AB72C3F0046D186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F43F436C2AB72C3D0046D186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F43F43732AB72C3D0046D186;
+			remoteInfo = WritingPad;
+		};
+		F43F43902AB72C3F0046D186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F43F436C2AB72C3D0046D186 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F43F43732AB72C3D0046D186;
+			remoteInfo = WritingPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F43F43742AB72C3D0046D186 /* WritingPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WritingPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43F43772AB72C3D0046D186 /* WritingPadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingPadApp.swift; sourceTree = "<group>"; };
+		F43F43792AB72C3D0046D186 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F43F437B2AB72C3F0046D186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F43F437E2AB72C3F0046D186 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F43F43802AB72C3F0046D186 /* WritingPad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WritingPad.entitlements; sourceTree = "<group>"; };
+		F43F43852AB72C3F0046D186 /* WritingPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WritingPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43F43892AB72C3F0046D186 /* WritingPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingPadTests.swift; sourceTree = "<group>"; };
+		F43F438F2AB72C3F0046D186 /* WritingPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WritingPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43F43932AB72C3F0046D186 /* WritingPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingPadUITests.swift; sourceTree = "<group>"; };
+		F43F43952AB72C3F0046D186 /* WritingPadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingPadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F43F43712AB72C3D0046D186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43F43822AB72C3F0046D186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43F438C2AB72C3F0046D186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F43F436B2AB72C3D0046D186 = {
+			isa = PBXGroup;
+			children = (
+				F43F43762AB72C3D0046D186 /* WritingPad */,
+				F43F43882AB72C3F0046D186 /* WritingPadTests */,
+				F43F43922AB72C3F0046D186 /* WritingPadUITests */,
+				F43F43752AB72C3D0046D186 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F43F43752AB72C3D0046D186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F43F43742AB72C3D0046D186 /* WritingPad.app */,
+				F43F43852AB72C3F0046D186 /* WritingPadTests.xctest */,
+				F43F438F2AB72C3F0046D186 /* WritingPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F43F43762AB72C3D0046D186 /* WritingPad */ = {
+			isa = PBXGroup;
+			children = (
+				F43F43772AB72C3D0046D186 /* WritingPadApp.swift */,
+				F43F43792AB72C3D0046D186 /* ContentView.swift */,
+				F43F437B2AB72C3F0046D186 /* Assets.xcassets */,
+				F43F43802AB72C3F0046D186 /* WritingPad.entitlements */,
+				F43F437D2AB72C3F0046D186 /* Preview Content */,
+			);
+			path = WritingPad;
+			sourceTree = "<group>";
+		};
+		F43F437D2AB72C3F0046D186 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F43F437E2AB72C3F0046D186 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F43F43882AB72C3F0046D186 /* WritingPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				F43F43892AB72C3F0046D186 /* WritingPadTests.swift */,
+			);
+			path = WritingPadTests;
+			sourceTree = "<group>";
+		};
+		F43F43922AB72C3F0046D186 /* WritingPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F43F43932AB72C3F0046D186 /* WritingPadUITests.swift */,
+				F43F43952AB72C3F0046D186 /* WritingPadUITestsLaunchTests.swift */,
+			);
+			path = WritingPadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F43F43732AB72C3D0046D186 /* WritingPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F43F43992AB72C3F0046D186 /* Build configuration list for PBXNativeTarget "WritingPad" */;
+			buildPhases = (
+				F43F43702AB72C3D0046D186 /* Sources */,
+				F43F43712AB72C3D0046D186 /* Frameworks */,
+				F43F43722AB72C3D0046D186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WritingPad;
+			productName = WritingPad;
+			productReference = F43F43742AB72C3D0046D186 /* WritingPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F43F43842AB72C3F0046D186 /* WritingPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F43F439C2AB72C3F0046D186 /* Build configuration list for PBXNativeTarget "WritingPadTests" */;
+			buildPhases = (
+				F43F43812AB72C3F0046D186 /* Sources */,
+				F43F43822AB72C3F0046D186 /* Frameworks */,
+				F43F43832AB72C3F0046D186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F43F43872AB72C3F0046D186 /* PBXTargetDependency */,
+			);
+			name = WritingPadTests;
+			productName = WritingPadTests;
+			productReference = F43F43852AB72C3F0046D186 /* WritingPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F43F438E2AB72C3F0046D186 /* WritingPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F43F439F2AB72C3F0046D186 /* Build configuration list for PBXNativeTarget "WritingPadUITests" */;
+			buildPhases = (
+				F43F438B2AB72C3F0046D186 /* Sources */,
+				F43F438C2AB72C3F0046D186 /* Frameworks */,
+				F43F438D2AB72C3F0046D186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F43F43912AB72C3F0046D186 /* PBXTargetDependency */,
+			);
+			name = WritingPadUITests;
+			productName = WritingPadUITests;
+			productReference = F43F438F2AB72C3F0046D186 /* WritingPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F43F436C2AB72C3D0046D186 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F43F43732AB72C3D0046D186 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					F43F43842AB72C3F0046D186 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F43F43732AB72C3D0046D186;
+					};
+					F43F438E2AB72C3F0046D186 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F43F43732AB72C3D0046D186;
+					};
+				};
+			};
+			buildConfigurationList = F43F436F2AB72C3D0046D186 /* Build configuration list for PBXProject "WritingPad" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F43F436B2AB72C3D0046D186;
+			productRefGroup = F43F43752AB72C3D0046D186 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F43F43732AB72C3D0046D186 /* WritingPad */,
+				F43F43842AB72C3F0046D186 /* WritingPadTests */,
+				F43F438E2AB72C3F0046D186 /* WritingPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F43F43722AB72C3D0046D186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43F437F2AB72C3F0046D186 /* Preview Assets.xcassets in Resources */,
+				F43F437C2AB72C3F0046D186 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43F43832AB72C3F0046D186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43F438D2AB72C3F0046D186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F43F43702AB72C3D0046D186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43F437A2AB72C3D0046D186 /* ContentView.swift in Sources */,
+				F43F43782AB72C3D0046D186 /* WritingPadApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43F43812AB72C3F0046D186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43F438A2AB72C3F0046D186 /* WritingPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43F438B2AB72C3F0046D186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43F43942AB72C3F0046D186 /* WritingPadUITests.swift in Sources */,
+				F43F43962AB72C3F0046D186 /* WritingPadUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F43F43872AB72C3F0046D186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F43F43732AB72C3D0046D186 /* WritingPad */;
+			targetProxy = F43F43862AB72C3F0046D186 /* PBXContainerItemProxy */;
+		};
+		F43F43912AB72C3F0046D186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F43F43732AB72C3D0046D186 /* WritingPad */;
+			targetProxy = F43F43902AB72C3F0046D186 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F43F43972AB72C3F0046D186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F43F43982AB72C3F0046D186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F43F439A2AB72C3F0046D186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WritingPad/WritingPad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WritingPad/Preview Content\"";
+				DEVELOPMENT_TEAM = 3UW6MN7CG5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plutopanda.WritingPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F43F439B2AB72C3F0046D186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WritingPad/WritingPad.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WritingPad/Preview Content\"";
+				DEVELOPMENT_TEAM = 3UW6MN7CG5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plutopanda.WritingPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F43F439D2AB72C3F0046D186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UW6MN7CG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plutopanda.WritingPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WritingPad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WritingPad";
+			};
+			name = Debug;
+		};
+		F43F439E2AB72C3F0046D186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UW6MN7CG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plutopanda.WritingPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WritingPad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WritingPad";
+			};
+			name = Release;
+		};
+		F43F43A02AB72C3F0046D186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UW6MN7CG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plutopanda.WritingPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WritingPad;
+			};
+			name = Debug;
+		};
+		F43F43A12AB72C3F0046D186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3UW6MN7CG5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plutopanda.WritingPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = WritingPad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F43F436F2AB72C3D0046D186 /* Build configuration list for PBXProject "WritingPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43F43972AB72C3F0046D186 /* Debug */,
+				F43F43982AB72C3F0046D186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F43F43992AB72C3F0046D186 /* Build configuration list for PBXNativeTarget "WritingPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43F439A2AB72C3F0046D186 /* Debug */,
+				F43F439B2AB72C3F0046D186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F43F439C2AB72C3F0046D186 /* Build configuration list for PBXNativeTarget "WritingPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43F439D2AB72C3F0046D186 /* Debug */,
+				F43F439E2AB72C3F0046D186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F43F439F2AB72C3F0046D186 /* Build configuration list for PBXNativeTarget "WritingPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F43F43A02AB72C3F0046D186 /* Debug */,
+				F43F43A12AB72C3F0046D186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F43F436C2AB72C3D0046D186 /* Project object */;
+}
