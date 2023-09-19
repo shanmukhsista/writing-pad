@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F50E2BE83924300F008DF19 /* Pods_WritingPad_WritingPadUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5C4645F94532F6ABBB15AC /* Pods_WritingPad_WritingPadUITests.framework */; };
+		BEA697AFD337436D4CE5870E /* Pods_WritingPadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8993F7EA7796D90F08ED856B /* Pods_WritingPadTests.framework */; };
+		EC392D6C4403B2BD9FF932E6 /* Pods_WritingPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058B8D4D37E5A62A326797C0 /* Pods_WritingPad.framework */; };
 		F43F43782AB72C3D0046D186 /* WritingPadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F43772AB72C3D0046D186 /* WritingPadApp.swift */; };
 		F43F437A2AB72C3D0046D186 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43F43792AB72C3D0046D186 /* ContentView.swift */; };
 		F43F437C2AB72C3F0046D186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43F437B2AB72C3F0046D186 /* Assets.xcassets */; };
@@ -34,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		057809B4F24668F851886611 /* Pods-WritingPad-WritingPadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WritingPad-WritingPadUITests.debug.xcconfig"; path = "Target Support Files/Pods-WritingPad-WritingPadUITests/Pods-WritingPad-WritingPadUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		058B8D4D37E5A62A326797C0 /* Pods_WritingPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WritingPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3627171900CE72940A3D8186 /* Pods-WritingPadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WritingPadTests.debug.xcconfig"; path = "Target Support Files/Pods-WritingPadTests/Pods-WritingPadTests.debug.xcconfig"; sourceTree = "<group>"; };
+		409704023E0579CF51468EBC /* Pods-WritingPad-WritingPadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WritingPad-WritingPadUITests.release.xcconfig"; path = "Target Support Files/Pods-WritingPad-WritingPadUITests/Pods-WritingPad-WritingPadUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B999A020076874B100FA9D2 /* Pods-WritingPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WritingPad.release.xcconfig"; path = "Target Support Files/Pods-WritingPad/Pods-WritingPad.release.xcconfig"; sourceTree = "<group>"; };
+		8557379C64AD38FA794E82BB /* Pods-WritingPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WritingPad.debug.xcconfig"; path = "Target Support Files/Pods-WritingPad/Pods-WritingPad.debug.xcconfig"; sourceTree = "<group>"; };
+		8993F7EA7796D90F08ED856B /* Pods_WritingPadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WritingPadTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5C4645F94532F6ABBB15AC /* Pods_WritingPad_WritingPadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WritingPad_WritingPadUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E23B07E6DDB82853968092 /* Pods-WritingPadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WritingPadTests.release.xcconfig"; path = "Target Support Files/Pods-WritingPadTests/Pods-WritingPadTests.release.xcconfig"; sourceTree = "<group>"; };
 		F43F43742AB72C3D0046D186 /* WritingPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WritingPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43F43772AB72C3D0046D186 /* WritingPadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingPadApp.swift; sourceTree = "<group>"; };
 		F43F43792AB72C3D0046D186 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC392D6C4403B2BD9FF932E6 /* Pods_WritingPad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA697AFD337436D4CE5870E /* Pods_WritingPadTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +80,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F50E2BE83924300F008DF19 /* Pods_WritingPad_WritingPadUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A0AF36DFBBA3FB04E0446A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8557379C64AD38FA794E82BB /* Pods-WritingPad.debug.xcconfig */,
+				7B999A020076874B100FA9D2 /* Pods-WritingPad.release.xcconfig */,
+				057809B4F24668F851886611 /* Pods-WritingPad-WritingPadUITests.debug.xcconfig */,
+				409704023E0579CF51468EBC /* Pods-WritingPad-WritingPadUITests.release.xcconfig */,
+				3627171900CE72940A3D8186 /* Pods-WritingPadTests.debug.xcconfig */,
+				E5E23B07E6DDB82853968092 /* Pods-WritingPadTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ABC4036EC94EDC166051B6C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				058B8D4D37E5A62A326797C0 /* Pods_WritingPad.framework */,
+				8E5C4645F94532F6ABBB15AC /* Pods_WritingPad_WritingPadUITests.framework */,
+				8993F7EA7796D90F08ED856B /* Pods_WritingPadTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F43F436B2AB72C3D0046D186 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +117,8 @@
 				F43F43882AB72C3F0046D186 /* WritingPadTests */,
 				F43F43922AB72C3F0046D186 /* WritingPadUITests */,
 				F43F43752AB72C3D0046D186 /* Products */,
+				3A0AF36DFBBA3FB04E0446A0 /* Pods */,
+				ABC4036EC94EDC166051B6C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F43F43992AB72C3F0046D186 /* Build configuration list for PBXNativeTarget "WritingPad" */;
 			buildPhases = (
+				7D363290D5ACBBCFAFD0EED4 /* [CP] Check Pods Manifest.lock */,
 				F43F43702AB72C3D0046D186 /* Sources */,
 				F43F43712AB72C3D0046D186 /* Frameworks */,
 				F43F43722AB72C3D0046D186 /* Resources */,
+				1972FC3A3FCA3BC06C32B2AF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F43F439C2AB72C3F0046D186 /* Build configuration list for PBXNativeTarget "WritingPadTests" */;
 			buildPhases = (
+				21D9780D908991D855818149 /* [CP] Check Pods Manifest.lock */,
 				F43F43812AB72C3F0046D186 /* Sources */,
 				F43F43822AB72C3F0046D186 /* Frameworks */,
 				F43F43832AB72C3F0046D186 /* Resources */,
@@ -171,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F43F439F2AB72C3F0046D186 /* Build configuration list for PBXNativeTarget "WritingPadUITests" */;
 			buildPhases = (
+				EE6EB1A5CBC05998DFE7AD28 /* [CP] Check Pods Manifest.lock */,
 				F43F438B2AB72C3F0046D186 /* Sources */,
 				F43F438C2AB72C3F0046D186 /* Frameworks */,
 				F43F438D2AB72C3F0046D186 /* Resources */,
+				480FE507346B99E4E1F28461 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1972FC3A3FCA3BC06C32B2AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WritingPad/Pods-WritingPad-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WritingPad/Pods-WritingPad-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WritingPad/Pods-WritingPad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21D9780D908991D855818149 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WritingPadTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		480FE507346B99E4E1F28461 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WritingPad-WritingPadUITests/Pods-WritingPad-WritingPadUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WritingPad-WritingPadUITests/Pods-WritingPad-WritingPadUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WritingPad-WritingPadUITests/Pods-WritingPad-WritingPadUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D363290D5ACBBCFAFD0EED4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WritingPad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE6EB1A5CBC05998DFE7AD28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WritingPad-WritingPadUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F43F43702AB72C3D0046D186 /* Sources */ = {
@@ -412,6 +560,7 @@
 		};
 		F43F439A2AB72C3F0046D186 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8557379C64AD38FA794E82BB /* Pods-WritingPad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -424,6 +573,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Writing Pad";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -439,6 +590,7 @@
 		};
 		F43F439B2AB72C3F0046D186 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B999A020076874B100FA9D2 /* Pods-WritingPad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +603,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Writing Pad";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,6 +620,7 @@
 		};
 		F43F439D2AB72C3F0046D186 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3627171900CE72940A3D8186 /* Pods-WritingPadTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +640,7 @@
 		};
 		F43F439E2AB72C3F0046D186 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E23B07E6DDB82853968092 /* Pods-WritingPadTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +660,7 @@
 		};
 		F43F43A02AB72C3F0046D186 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 057809B4F24668F851886611 /* Pods-WritingPad-WritingPadUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +678,7 @@
 		};
 		F43F43A12AB72C3F0046D186 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409704023E0579CF51468EBC /* Pods-WritingPad-WritingPadUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_WritingPad_WritingPadUITests {
+  umbrella header "Pods-WritingPad-WritingPadUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -4,10 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Release `WritingPad.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>WritingPad.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F43F43732AB72C3D0046D186</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F43F43842AB72C3F0046D186</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F43F438E2AB72C3F0046D186</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
